@@ -171,7 +171,7 @@
   # What ends up in the author and committer field of commit objects.
   # https://git-scm.com/docs/git-config#Documentation/git-config.txt-username
   name = Marc Wrobel
-  email = marc.wrobel@gmail.com
+  email = marc.wrobel@mirakl.com
   # Force git to use this GPG key.
   # https://git-scm.com/docs/git-config#Documentation/git-config.txt-usersigningKey
-  signingkey = marc.wrobel@gmail.com
+  signingkey = ~/.ssh/id_ed25519
