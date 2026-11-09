@@ -33,6 +33,7 @@
       tags: ["apt"]
       vars:
         apt__extra_repositories:
+          - "anthropic-claude-code"
           - "docker-ce"
           - "github-cli"
           - "librewolf"
@@ -102,19 +103,17 @@
           - "ripgrep" # Recursively searches directories for a regex pattern
           - "uuid" # Universally Unique Identifier Command-Line Tool
           - "wl-clipboard" # Command-line copy/paste utilities for Wayland
-          # Docker external repository, see https://docs.docker.com/engine/install/debian/
+          # External repositories
           - "containerd.io"
           - "docker-buildx-plugin" # from docker
           - "docker-ce"
           - "docker-ce-cli"
           - "docker-ce-rootless-extras"
           - "docker-compose-plugin" # from docker
-          # github-cli, see https://github.com/cli/cli/blob/trunk/docs/install_linux.md
           - "gh"
-          # mise, see https://mise.jdx.dev/getting-started.html
           - "mise"
-          # librewolf
           - "librewolf"
+          - "claude-code"
 
     - role: "gnome"
       tags: ["gnome"]
