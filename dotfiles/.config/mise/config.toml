@@ -14,6 +14,7 @@ mirabox = "github:mirakl/tool-mirabox-v2"
 core-data-seeker = "github:mirakl/tool-core-data-seeker"
 
 [tools]
+acli = 'latest'
 aws-vault = '7'
 core-data-seeker = 'latest'
 java = '25'
