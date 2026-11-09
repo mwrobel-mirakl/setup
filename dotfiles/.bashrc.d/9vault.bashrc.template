@@ -1,0 +1,2 @@
+export VAULT_ADDR=https://vault.mirakl.net
+export VAULT_AUTH_GITHUB_TOKEN=$TOKEN$

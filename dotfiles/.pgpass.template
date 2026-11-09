@@ -1,0 +1,4 @@
+localhost:15432:marcwrobel4mirabox_test:mirakl:password
+localhost:5432:mirakl_dev:mirakl:4LnyQTEL2h
+localhost:54321:mirakl_dev:mirakl:4LnyQTEL2h
+localhost:5454:cima_dump:postgres:password

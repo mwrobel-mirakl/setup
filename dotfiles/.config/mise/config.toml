@@ -1,17 +1,28 @@
 # See https://mise.jdx.dev/configuration/settings.html.
 
 [settings]
-cache_prune_age = '7d'
+cache_prune_age = '3d'
 disable_backends = ['asdf']
-idiomatic_version_file_enable_tools = ["java"," node", "python", "ruby"]
+idiomatic_version_file_enable_tools = ["java", "node", "python", "ruby"]
 java.shorthand_vendor = 'temurin'
 minimum_release_age = '3d'
 paranoid = true
 ruby.compile = false
 
+[tool_alias]
+mirabox = "github:mirakl/tool-mirabox-v2"
+core-data-seeker = "github:mirakl/tool-core-data-seeker"
+
 [tools]
+aws-vault = '7'
+core-data-seeker = 'latest'
+java = '25'
+kubectl = '1.35'
 maven = 'latest'
+mirabox = 'latest'
 node = 'latest'
 opencode = 'latest'
-ruby = 'latest'
+postgres = '17'
+terraform = '1'
 usage = 'latest'
+yarn = '4'

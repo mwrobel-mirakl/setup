@@ -1,0 +1,4 @@
+nodeLinker: node-modules
+npmAlwaysAuth: true
+npmRegistryServer: "https://npm-proxy.fury.io/mirakl/"
+npmAuthToken: $TOKEN$

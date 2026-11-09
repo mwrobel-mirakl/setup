@@ -1,0 +1,18 @@
+# Local tenant environment variables
+# https://mirakl.atlassian.net/wiki/spaces/LABS/pages/2349858891/Local+Tenant+environment+variable
+export MIRAKL_TENANT="marcwrobel"
+export MIRAKL_HOME="$HOME/projects"
+
+# Mirabox v2
+# https://start.1password.com/open/i?a=XYPZ7443YRAT3LV242FVLEFXUU&v=6foy6ewi7wvg76mb6o3abruflu&i=2lfyon6onn5zsb6jf5wsayfuby&h=mirakl.1password.eu
+export GITHUB_TOKEN=$(gh auth token)
+export MIRABOX_PGBOUNCER_NAMESPACE=pgbouncer-rds-kube-int-eu-3-tenant-test-2
+export MIRAKL_SECURITY_AUTH0_CLIENT_ID=$CLIENT_ID$
+export MIRAKL_SECURITY_AUTH0_CLIENT_SECRET=$CLIENT_SECRET$
+export MIRAKL_SECURITY_COOKIE_KEY=$COOKIE_KEY$
+
+# https://start.1password.com/open/i?a=XYPZ7443YRAT3LV242FVLEFXUU&v=vo4gxlckmbhgtnw5ofjacx6u4q&i=oikmxmfpy5b24outyzuonh6ure&h=mirakl.1password.eu
+export ROMA_MCP_TOKEN="$TOKEN$"
+
+# https://start.1password.com/open/i?a=XYPZ7443YRAT3LV242FVLEFXUU&v=vo4gxlckmbhgtnw5ofjacx6u4q&i=ilpsy3jt4wb7qiqcnb4c6jge6y&h=mirakl.1password.eu
+export APP_AUTH_MANAGEMENT_TOKEN="$TOKEN$"

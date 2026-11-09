@@ -1,0 +1,47 @@
+{
+  "env": {
+    "DISABLE_AUTOUPDATER": "1"
+  },
+  "permissions": {
+    "ask": [
+      "Bash(git push *)",
+      "Bash(gh pr create *)"
+    ],
+    "defaultMode": "auto"
+  },
+  "model": "opus",
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "mirakl-frontend@tool-ai-marketplace": false,
+    "mirakl-dev-doc@sandbox-ai-marketplace": false,
+    "mirakl-api-doc@tool-ai-marketplace": false,
+    "mirakl-atlassian@tool-ai-marketplace": true,
+    "mirakl-dev-tools@tool-ai-marketplace": false,
+    "mirakl-security-alert-advisor@tool-ai-marketplace": true
+  },
+  "extraKnownMarketplaces": {
+    "sandbox-ai-marketplace": {
+      "source": {
+        "source": "git",
+        "url": "git@github.com:mirakl/sandbox-ai-marketplace.git"
+      }
+    }
+  },
+  "modelSettings": {
+    "claude-sonnet-5": {
+      "effortLevel": "medium"
+    },
+    "claude-opus-5-5": {
+      "effortLevel": "medium"
+    },
+    "claude-sonnet-5-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "skipWorkflowUsageWarning": true,
+  "theme": "auto",
+  "autoCompactEnabled": true
+}

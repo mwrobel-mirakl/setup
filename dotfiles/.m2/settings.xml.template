@@ -1,0 +1,46 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+  <servers>
+    <server>
+      <id>mirakl-repo-cloud</id>
+      <username>marc.wrobel@mirakl.com</username>
+      <password>$PASSWORD$</password>
+      <repositoryOrigins>
+        <repositoryOrigin>https://mirakl.jfrog.io</repositoryOrigin>
+      </repositoryOrigins>
+    </server>
+    <server>
+      <id>mirakl-ext-repo-cloud</id>
+      <username>marc.wrobel@mirakl.com</username>
+      <password>$PASSWORD$</password>
+      <repositoryOrigins>
+        <repositoryOrigin>https://mirakl.jfrog.io</repositoryOrigin>
+      </repositoryOrigins>
+    </server>
+    <server>
+      <id>mirakl-repo-snapshots-cloud</id>
+      <username>marc.wrobel@mirakl.com</username>
+      <password>$PASSWORD$</password>
+      <repositoryOrigins>
+        <repositoryOrigin>https://mirakl.jfrog.io</repositoryOrigin>
+      </repositoryOrigins>
+    </server>
+    <server>
+      <id>mirakl-ext-repo</id>
+      <username>marc.wrobel@mirakl.com</username>
+      <password>$PASSWORD$</password>
+      <repositoryOrigins>
+        <repositoryOrigin>https://mirakl.jfrog.io</repositoryOrigin>
+      </repositoryOrigins>
+    </server>
+  </servers>
+  <mirrors>
+    <mirror>
+      <id>mirakl-repo-cloud</id>
+      <name>Redirect the unreachable repositories declared in third-party POMs to the Mirakl Artifactory</name>
+      <url>https://mirakl.jfrog.io/artifactory/mirakl-repo</url>
+      <mirrorOf>codehaus.org,codehaus-snapshots,version99</mirrorOf>
+    </mirror>
+  </mirrors>
+</settings>
