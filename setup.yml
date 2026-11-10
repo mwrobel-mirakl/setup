@@ -36,6 +36,7 @@
           - "anthropic-claude-code"
           - "docker-ce"
           - "github-cli"
+          - "google_cloud"
           - "librewolf"
           - "mise"
 
@@ -114,6 +115,7 @@
           - "mise"
           - "librewolf"
           - "claude-code"
+          - "google-cloud-cli"
 
     - role: "gnome"
       tags: ["gnome"]
