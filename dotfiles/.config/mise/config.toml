@@ -10,6 +10,7 @@ paranoid = true
 ruby.compile = false
 
 [tool_alias]
+pup = "github:DataDog/pup"
 mirabox = "github:mirakl/tool-mirabox-v2"
 core-data-seeker = "github:mirakl/tool-core-data-seeker"
 
@@ -24,6 +25,8 @@ mirabox = 'latest'
 node = 'latest'
 opencode = 'latest'
 postgres = '17'
+pup = 'latest'
+sentry-cli = 'latest'
 terraform = '1'
 usage = 'latest'
 yarn = '4'
