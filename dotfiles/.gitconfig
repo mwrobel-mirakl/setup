@@ -84,6 +84,11 @@
   # https://git-scm.com/docs/git-config#Documentation/git-config.txt-fetchall
   all = true
 
+[gpg]
+  # Specifies which key format to use when signing with --gpg-sign.
+  # https://git-scm.com/docs/git-config#Documentation/git-config.txt-gpgformat
+  format = ssh
+
 [help]
   # When typos are detected, show the suggestion and prompt for confirmation to run the command
   # https://git-scm.com/docs/git-config#Documentation/git-config.txt-helpautoCorrect
