@@ -39,6 +39,7 @@
           - "google_cloud"
           - "librewolf"
           - "mise"
+          - "teleport"
 
     - { role: "openssh_client", tags: ["ssh"] }
     # - { role: "openssh_server", tags: ["ssh"] }
@@ -116,6 +117,8 @@
           - "librewolf"
           - "claude-code"
           - "google-cloud-cli"
+          - "teleport-ent"
+          - "teleport-connect"
 
     - role: "gnome"
       tags: ["gnome"]
